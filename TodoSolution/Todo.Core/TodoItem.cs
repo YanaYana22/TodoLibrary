@@ -3,8 +3,8 @@
     public class TodoItem
     {
         public Guid Id { get; } = Guid.NewGuid();
-        public string Title { get; private set; }
-        public bool IsDone { get; private set; }
+        public string Title { get; set; }
+        public bool IsDone { get; set; }
 
         public TodoItem(string title)
         {

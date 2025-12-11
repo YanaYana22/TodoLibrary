@@ -100,3 +100,4 @@ E:\Projects\TodoLibrary\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\refint\Tod
 E:\Projects\TodoLibrary\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.pdb
 E:\Projects\TodoLibrary\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.genruntimeconfig.cache
 E:\Projects\TodoLibrary\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\ref\Todo.Core.Tests.dll
+E:\Projects\TodoLibrary\TodoSolution\Todo.Core.Tests\obj\Debug\net8.0\Todo.Core.Tests.sourcelink.json
