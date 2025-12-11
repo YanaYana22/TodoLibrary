@@ -12,7 +12,7 @@
     "D:\\Visual Studio\\visual_sdk\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.1.0",
     "restore": {
       "projectUniqueName": "E:\\Projects\\TodoLibrary\\TodoSolution\\Todo.Core\\Todo.Core.csproj",
       "projectName": "Todo.Core",

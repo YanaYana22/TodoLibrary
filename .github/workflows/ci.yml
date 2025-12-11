@@ -24,10 +24,10 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-nuget-
     - name: Restore
-      run: dotnet restore
+      run: dotnet restore TodoSolution/TodoSolution.sln   
     - name: Build
-      run: dotnet build --no-restore -c Release
+      run: dotnet build TodoSolution/TodoSolution.sln --no-restore -c Release   
     - name: Test
-      run: dotnet test --no-build -c Release --verbosity normal
+      run: dotnet test TodoSolution/TodoSolution.sln --no-build -c Release --verbosity normal   
     - name: Pack
-      run: dotnet pack Todo.Core/Todo.Core.csproj -c Release -o ./artifacts
+      run: dotnet pack TodoSolution/Todo.Core/Todo.Core.csproj -c Release -o ./artifacts   

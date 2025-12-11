@@ -11,13 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Todo.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("io.natk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Simple Todo core library (for practice)")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+45720bfc7a390675274d1dfe4effc56c76e96216")]
 [assembly: System.Reflection.AssemblyProductAttribute("Todo.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Todo.Core")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

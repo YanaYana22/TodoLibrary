@@ -21,11 +21,11 @@ jobs:
         with:
           dotnet-version: '8.0.x'
       - name: Restore
-        run: dotnet restore
+        run: dotnet restore TodoSolution/TodoSolution.sln
       - name: Build (Release)
-        run: dotnet build -c Release --no-restore
+        run: dotnet build TodoSolution/TodoSolution.sln -c Release --no-restore
       - name: Pack
-        run: dotnet pack Todo.Core/Todo.Core.csproj -c Release -o ./artifacts
+        run: dotnet pack TodoSolution/Todo.Core/Todo.Core.csproj -c Release -o ./artifacts
       - name: List artifacts
         run: ls -la ./artifacts || true
       - name: Push package to GitHub Packages (NuGet)
